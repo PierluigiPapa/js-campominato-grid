@@ -66,7 +66,7 @@ header {
     display: flex;
 }
 
-.box{
+.box-easy{
     border: 1px solid black;
 
     flex-basis: calc( 100% / 10 );
@@ -75,6 +75,34 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-medium{
+    border: 1px solid black;
+
+    flex-basis: calc( 100% / 9 );
+    aspect-ratio: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-hard{
+    border: 1px solid black;
+
+    flex-basis: calc( 100% / 7 );
+    aspect-ratio: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-selected-color{
+    background-color: #165198;
+    border: 1px solid black;
+    color: white;
 }
 
 /* // SECTION MAIN */
