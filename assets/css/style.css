@@ -67,7 +67,7 @@ header {
 }
 
 .box{
-    border: 2px solid black;
+    border: 1px solid black;
 
     flex-basis: calc( 100% / 10 );
     aspect-ratio: 1;
