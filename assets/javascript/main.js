@@ -3,7 +3,7 @@ const levelHtml = document.getElementById ('level')
 //Costante per attivare il gioco attraverso il bottone play
 const buttonHmtl = document.querySelector ('.play')
 //Costante per attivare la griglia
-const grigliaHtml = document.getElementById('grill')
+const grigliaHtml = document.getElementById('grid')
 
 buttonHmtl.addEventListener('click', inizioGioco);
 
