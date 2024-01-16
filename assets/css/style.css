@@ -106,3 +106,26 @@ header {
 }
 
 /* // SECTION MAIN */
+
+footer {
+    background-color: white;
+}
+
+#bottom {
+    height: 80px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.love-boolean {
+    display: flex;
+    align-items: center;
+
+}
+
+p {
+    padding-left: 10px;
+}
+.bool {
+    color: purple;
+}

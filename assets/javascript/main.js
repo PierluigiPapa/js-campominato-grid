@@ -9,6 +9,8 @@ buttonHmtl.addEventListener('click', inizioGioco);
 
 function selectedSquareChangeColor(){
     this.classList.add('box-selected-color');
+
+    console.log(this.innerHTML)
 }
 
 function inizioGioco() {
@@ -22,7 +24,6 @@ function inizioGioco() {
             box.innerHTML = i;
 
             box.addEventListener('click', selectedSquareChangeColor);
-            console.log(i)
         }
 
     }else if (level.value == 'medium') {
@@ -33,7 +34,6 @@ function inizioGioco() {
             box.innerHTML = i;
 
             box.addEventListener('click', selectedSquareChangeColor);
-            console.log(i)
         }
     }else if (level.value == 'hard') {
         for (let i = 1; i <= 49; i++) {
@@ -43,7 +43,6 @@ function inizioGioco() {
             box.innerHTML = i;
 
             box.addEventListener('click', selectedSquareChangeColor);
-            console.log(i)
         }
     }
 }
