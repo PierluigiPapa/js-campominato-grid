@@ -6,12 +6,18 @@
 
 body{
     font-family: sans-serif;
-    background-color: #7FFFD4;
 }
 
 /* SECTION HEADER */
 header {
     background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10vh;
+    padding: 20px;
 }
 
 #topbar {
@@ -19,15 +25,14 @@ header {
     width: 100%;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;  
-}
-
 .topleft,
 .toright {
     padding: 0 20px;
+}
+
+.text {
+    padding-top: 20px;
+
 }
 
 .logo {
@@ -57,10 +62,16 @@ header {
 /* // SECTION HEADER // */
 
 /* // SECTION MAIN //  */
+main {
+    background-color: #7FFFD4;
+    padding: 20px;
+    height: 80vh;
+}
+
 #grid{
-    width: 60%;
+    width: 30%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 60px;
     /* border: 2px solid black; */
     flex-wrap: wrap;
     display: flex;
@@ -107,20 +118,11 @@ header {
 
 /* // SECTION MAIN */
 
+/* SECTION FOOTER */
+
 footer {
-    background-color: white;
-}
-
-#bottom {
-    height: 80px;
-    width: 100%;
-    margin-top: 60px;
-}
-
-.love-boolean {
-    display: flex;
-    align-items: center;
-
+    height: 100px;
+    padding: 20px;
 }
 
 p {
@@ -129,3 +131,4 @@ p {
 .bool {
     color: purple;
 }
+/* // SECTION FOOTER  */
